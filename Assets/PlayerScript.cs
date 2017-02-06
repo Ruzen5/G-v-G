@@ -22,7 +22,7 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //movement delen
         if (Input.GetKey(KeyCode.A) && transform.position.x >= -8)
         {
             Vector3 position = this.transform.position;
